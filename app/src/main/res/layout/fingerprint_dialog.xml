@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_fp_40px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="请验证指纹解锁"
+        android:textColor="#000"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:textSize="12sp"
+        android:textColor="#f45"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="#ccc"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#5d7883"
+        android:textSize="16sp"
+        />
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+        />
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="独立密码验证"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        />
+</LinearLayout>
+
+</LinearLayout>
+    <!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+    <!--作者：guolin-->
+    <!--来源：CSDN-->
+    <!--原文：https://blog.csdn.net/guolin_blog/article/details/81450114-->
+    <!--版权声明：本文为博主原创文章，转载请附上博文链接！-->

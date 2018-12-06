@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logbackground1"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="注册新账号"
+            android:layout_width="0dp"
+            android:textColor="#0090fe"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_weight="1.5"
+            android:layout_height="36dp" />
+        <TextView
+
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="忘记密码?"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:textSize="15dp"
+            android:layout_weight="1.5"
+            android:layout_height="36dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <TextView
+            android:hint="UserName"
+            android:text="用户登录"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="25dp"
+            android:layout_weight="1.5"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <EditText
+            android:hint="UserName"
+            android:id="@+id/account"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittext_background"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="25dp"
+            android:layout_weight="1.5"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp" />
+        <EditText
+            android:padding="0dp"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:id="@+id/password"
+            android:background="@drawable/edittext_background"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="25dp"
+            android:layout_weight="1.5"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/login"
+            android:shadowRadius="20"
+            android:background="@drawable/my_background"
+            android:drawableStart="@drawable/xup1"
+            android:padding="40dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:rotation="45"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
